@@ -83,9 +83,9 @@ public class TheTasks {
 
 	public static String task3(int number) {
 		if (number % 2 == 0)
-			return "the number is even"; // четное
+			return "the number is even"; // С‡РµС‚РЅС‹Рµ
 		else
-			return "the number is odd"; // нечетное
+			return "the number is odd"; // РЅРµС‡РµС‚РЅС‹Рµ
 	}
 
 	public static String task4(int temperature) {
@@ -200,5 +200,4 @@ public class TheTasks {
 			System.out.println(" ");
 		}
 	}
-
 }
