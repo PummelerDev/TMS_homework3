@@ -81,8 +81,8 @@ public class TheTasks {
 			return "incorrect data";
 	}
 
-	public static String task3(int namber) {
-		if (namber % 2 == 0)
+	public static String task3(int number) {
+		if (number % 2 == 0)
 			return "the number is even"; // четное
 		else
 			return "the number is odd"; // нечетное
@@ -98,8 +98,8 @@ public class TheTasks {
 		return "incorrect data";
 	}
 
-	public static String task5(int namberOfColour) {
-		switch (namberOfColour) {
+	public static String task5(int numberOfColour) {
+		switch (numberOfColour) {
 		case 1:
 			return "red";
 		case 2:
@@ -132,17 +132,17 @@ public class TheTasks {
 		}
 	}
 
-	public static int task2_3(int namber) {
+	public static int task2_3(int number) {
 		int result = 0;
-		for (int i = 1; i <= namber; i++)
+		for (int i = 1; i <= number; i++)
 			result += i;
 		return result;
 	}
 
-	public static int task2_3recursion(int namber) {
+	public static int task2_3recursion(int number) {
 		int result = 0;
-		if (namber > 0)
-			result += namber + task2_3recursion(namber - 1);
+		if (number > 0)
+			result += number + task2_3recursion(number - 1);
 		return result;
 	}
 
